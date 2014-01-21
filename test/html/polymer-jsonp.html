@@ -13,7 +13,7 @@
   
   <script>
     var assert = chai.assert;
-    document.addEventListener('WebComponentsReady', function() {
+    document.addEventListener('polymer-ready', function() {
       var jsonp = document.querySelector('polymer-jsonp');
       jsonp.addEventListener("polymer-response", function(event) {
         assert.isDefined(event.detail.response[0]);
