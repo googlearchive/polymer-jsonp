@@ -2,6 +2,6 @@
   "name": "polymer-jsonp",
   "private": true,
   "dependencies": {
-    "polymer": "Polymer/polymer#0.4.1"
+    "polymer": "Polymer/polymer#^0.4.0"
   }
 }
